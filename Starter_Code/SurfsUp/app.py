@@ -31,7 +31,11 @@ Station = Base.classes.station
 
 
 # Create our session (link) from Python to the DB
+<<<<<<< HEAD
   session = Session(engine)
+=======
+
+>>>>>>> 4cea7f6cd2c63783373baa5f4849ef46e4fa4d26
 
 #################################################
 # Flask Setup
@@ -43,6 +47,7 @@ app = Flask(__name__)
 #################################################
 # Flask Routes
 #################################################
+<<<<<<< HEAD
 @app.route("/")
 def welcome():
     """List all available api routes."""
@@ -76,3 +81,5 @@ def tobs():
     
 
     
+=======
+>>>>>>> 4cea7f6cd2c63783373baa5f4849ef46e4fa4d26
